@@ -1,0 +1,10 @@
+{
+  "name": "everyauth-example-password",
+  "description": "test everyauth with just passwords, no persistance",
+  "version": "0.0.1",
+  "dependencies": {
+    "everyauth": ">=0.2.7",
+    "express": ">=2.3.11",
+    "jade": ">= 0.12.1"
+  }
+}

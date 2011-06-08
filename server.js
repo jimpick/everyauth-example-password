@@ -1,5 +1,5 @@
 var express = require('express')
-  , everyauth = require('../index');
+  , everyauth = require('everyauth');
 
 everyauth.debug = true;
 
