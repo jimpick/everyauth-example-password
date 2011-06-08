@@ -18,14 +18,6 @@ everyauth
     .getLoginPath('/login')
     .postLoginPath('/login')
     .loginView('login.jade')
-//    .loginLocals({
-//      title: 'Login'
-//    })
-//    .loginLocals(function (req, res) {
-//      return {
-//        title: 'Login'
-//      }
-//    })
     .loginLocals( function (req, res, done) {
       setTimeout( function () {
         done(null, {
@@ -47,14 +39,6 @@ everyauth
     .getRegisterPath('/register')
     .postRegisterPath('/register')
     .registerView('register.jade')
-//    .registerLocals({
-//      title: 'Register'
-//    })
-//    .registerLocals(function (req, res) {
-//      return {
-//        title: 'Sync Register'
-//      }
-//    })
     .registerLocals( function (req, res, done) {
       setTimeout( function () {
         done(null, {

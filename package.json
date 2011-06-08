@@ -1,6 +1,6 @@
 {
   "name": "everyauth-example-password",
-  "description": "test everyauth with just passwords, no persistance",
+  "description": "Modified version of everyauth example with just passwords, no persistance",
   "version": "0.0.1",
   "dependencies": {
     "everyauth": ">=0.2.7",
