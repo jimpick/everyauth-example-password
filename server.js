@@ -14,6 +14,7 @@ var usersByLogin = {
 everyauth
   .password
     // .loginWith('email')
+    .loginWith('login')
     .getLoginPath('/login')
     .postLoginPath('/login')
     .loginView('login.jade')
