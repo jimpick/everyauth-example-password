@@ -62,6 +62,11 @@ everyauth
         });
       }, 200);
     })
+    .extractExtraRegistrationParams( function (req) {
+      return {
+          email: req.body.email
+      };
+    })
     .validateRegistration( function (newUserAttrs, errors) {
       var login = newUserAttrs.login;
       if (usersByLogin[login]) errors.push('Login already taken');

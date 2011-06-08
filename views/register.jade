@@ -7,6 +7,9 @@ form(action='/register', method='POST')
   #login
     label(for=everyauth.password.loginFormFieldName) Login
     input(type='text', name=everyauth.password.loginFormFieldName, value=userParams[everyauth.password.loginFormFieldName])
+  #email
+    label(for=everyauth.password.emailFormFieldName) Email
+    input(type='text', name='email', value=userParams['email'])
   #password
     label(for=everyauth.password.passwordFormFieldName) Password
     input(type='password', name=everyauth.password.passwordFormFieldName)
